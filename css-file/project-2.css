@@ -1,0 +1,248 @@
+/* TOPNAVBAR */
+#TOPNAV{
+    background-color: #daac00;
+    padding: 1% 8%;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 20px;
+    padding-left: 25px !important;
+}
+#Searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    left: 47px;
+    box-shadow: 3px 11px 10px 0px rgba(7, 7, 7, 0.423);
+}
+#Searchbox::placeholder{
+    color: white;
+}
+#searchbtn{
+    position: relative;
+    z-index:99;
+    border: 0;
+    border-radius: 0px;
+    /* background-color: #00bec9; */
+}
+@media only screen and (max-width:768px) {
+    #sear{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:375px) {
+    #TOPNAV{
+        padding: 0;
+    }
+    /* #LOGO{
+        width: 180px;
+    } */
+}
+#newcont{
+    padding-bottom: 20px;
+    
+}
+#bannerrow{
+    background-color: #fcc302;
+}
+#pagecont{
+    color: white;
+}
+#heading{
+    font-size: 70px;
+    margin-top: 100px;
+    /* font-weight: 600; */
+}
+#subhead{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:450px) {
+    #pagecont{
+        padding: 0 ;
+        
+    }
+    #heading{
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+#serviceone{
+    padding: 7% 0 5% 0;
+}
+#butt{
+    background-color: #fcc302;
+    color: #fff;
+    border: 2px solid #fcc302 ;
+}
+#servicetwo{
+    padding-top: 2%; 
+    padding-bottom: 5%; 
+}
+
+#german{
+    margin-left: 10%;
+    position: relative; 
+    width: 70%;
+    height: 90%;
+    z-index: 98; 
+}
+
+.images{
+    position: relative;
+    background-color: #fcc302;
+    width: 30%;
+    height: 28%;
+    left: 2%;
+    top : -110%;
+}
+
+#opaciti{
+    margin-left: 10%;
+    bottom: 90%;
+    opacity: 0.4;
+    width:70%;
+    height: 90%;
+    background-color: #daac00;
+    position: relative;
+    z-index: 99;
+}
+@media only screen and (max-width:450px) {
+    #serviceone{
+        padding: 10% 10%;
+    }
+    #servicetwo{
+        padding: 10% 5%;  
+    }
+    .images{
+        position: relative;
+        background-color: #fcc302;
+        width: 32%;
+        height: 28%;
+        left: 5%;
+    }
+}
+#secondlast{
+    background:url(/images/checkup.png) no-repeat center;
+    opacity: 0.9;
+    /* padding-top: 60px; */
+    /* padding-bottom: 100px; */
+    margin-bottom: 30px;
+}
+.TEXT{
+    padding: 7%;
+    background-color: #daac00;
+    color:black;
+    width: 33.33%;
+    height: 400px;
+    /* font-size: 60px; */
+    opacity: 0.7;
+}
+.icon{
+    font-size: 70px;
+}
+@media only screen and (max-width:450px) {
+    #secondlast{
+        background: none;
+        background-color: #fcc302;
+        opacity: 0.9;
+        padding: 0;
+        margin: 0;
+    }
+    .TEXT{
+
+        height: auto    ;
+        width: 100%;
+    }
+}
+.blog{
+    margin-bottom: 20px;
+}
+#BLOGhead{
+    color: rgb(59, 59, 59);
+    font-weight: 700;
+}
+#blogcont{
+    font-size: 25px;
+}
+@media only screen and (max-width:450px) {
+    .blog{
+        margin: 10% 0;
+        padding: 20px 0;
+    }
+    BLOGhead{
+        color: rgb(59, 59, 59);
+        font-size: 150px;
+        font-weight: 700;    
+    }
+    #blogcont{
+        margin-top:20px ;
+        font-size: 20px;
+    }
+}
+.bcard{
+    border: 0 ;
+    padding-left: 17%;
+}
+.DOBY{
+    border: 1px solid gray;
+}
+.b-image{
+    margin: 5% 0;
+}
+.contact{
+    background-color: rgb(32, 45, 57);
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+li{
+    font-size: 18px;
+}
+#cont-text{
+    font-size: 18px;
+}
+#inp{
+    background-color: #fcc302;
+    position: relative;
+    left: 20px;
+    width: 55%;
+    border-radius: 0;
+}
+#boton{
+    /* position: relative; */
+    z-index: 99;
+    width: 10%;
+    border-radius: 0;
+}
+.icion{
+    font-size: 30px;
+}
+@media only screen and (max-width:450px) {
+    
+    .CONTACT{
+        /* display: flex; */
+
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    li{
+        font-size: 12px;
+    }
+    #cont-text{
+
+        font-size: 12px;
+    }
+    #inp{
+        background-color: #fcc302;
+        position: relative;
+        left: 10px;
+        width: 55%;
+        border-radius: 0;
+    }
+}
